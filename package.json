@@ -1,7 +1,7 @@
 {
   "name": "@4lch4/email-to-text",
   "displayName": "Daniel's E-Mail to Text API",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A lightweight API for converting e-mail addresses to text.",
   "main": "dist/index.js",
   "repository": {
