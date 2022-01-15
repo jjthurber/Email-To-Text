@@ -9,10 +9,9 @@
   dependencies:
     koa "^2.13.1"
 
-"@4lch4/koa-router-printer@^1.4.2":
+"@4lch4/koa-router-printer@https://github.com/4lch4/koa-router-printer.git":
   version "1.4.2"
-  resolved "https://artifactory-prd.jbhunt.com:8081/artifactory/api/npm/npm-repos/@4lch4/koa-router-printer/-/koa-router-printer-1.4.2.tgz#4bc34d2c9cd580f550004c4ce37cc0b6a20ff417"
-  integrity sha1-S8NNLJzVgPVQAExM43zAtqIP9Bc=
+  resolved "https://github.com/4lch4/koa-router-printer.git#53fb22a0f3865d5d0e472df9bd03bb9741560035"
   dependencies:
     "@4lch4/koa-oto" "1.3.0"
     "@koa/router" "^10.1.1"
@@ -22,8 +21,8 @@
 
 "@4lch4/logger@^1.7.4":
   version "1.7.4"
-  resolved "https://artifactory-prd.jbhunt.com:8081/artifactory/api/npm/npm-repos/@4lch4/logger/-/logger-1.7.4.tgz#7455223a56dcf0e42cb41b5b60cf048829325543"
-  integrity sha1-dFUiOlbc8OQstBtbYM8EiCkyVUM=
+  resolved "https://registry.yarnpkg.com/@4lch4/logger/-/logger-1.7.4.tgz#7455223a56dcf0e42cb41b5b60cf048829325543"
+  integrity sha512-xhCSp1tMs5XDdQSIx/9+kHjNOhjV+HUIBdVZFvAxirz/YO61E4AsLUbno+8kZgNNa/Oh+keoqOQTO5S7Popdyw==
   dependencies:
     chalk "^4.1.2"
     dayjs "^1.10.7"
