@@ -11,5 +11,5 @@ docker run -p ${PORT}:$PORT -d `
     -e VERSION=$VERSION `
     -e PORT=$PORT `
     -e API_PREFIX=$API_PREFIX `
-    --name mailtotext jisodl0/mailtotext:latest `
+    --name mailtotext jisodl0/mailtotext:latest 
     docker logs mailtotext --follow
