@@ -5,7 +5,7 @@
   "description": "A lightweight API for converting e-mail addresses to text.",
   "main": "dist/index.js",
   "repository": {
-    "url": "git@github.com:4lch4/Email-To-Text.git",
+    "url": "git+ssh://git@github.com/4lch4/Email-To-Text.git",
     "type": "git"
   },
   "scripts": {
@@ -18,15 +18,11 @@
     "docker:refresh": "yarn docker:build && yarn docker:stop && yarn docker:start",
     "pretty": "prettier --write ."
   },
-  "author": {
-    "name": "4lch4",
-    "email": "hey@4lch4.email",
-    "url": "https://alcha.org"
-  },
+  "author": "4lch4 <hey@4lch4.email> (https://alcha.org)",
   "license": "MIT",
   "bugs": {
-    "email": "email-to-text@4lch4.email",
-    "url": "https://github.com/4lch4/Email-To-Text/issues"
+    "url": "https://github.com/4lch4/Email-To-Text/issues",
+    "email": "email-to-text@4lch4.email"
   },
   "devDependencies": {
     "@types/koa": "^2.13.4",
@@ -42,10 +38,17 @@
     "@4lch4/koa-router-printer": "^1.4.2",
     "@4lch4/logger": "^1.7.4",
     "@koa/router": "^10.1.1",
+    "@types/body": "^5.1.1",
+    "@types/koa-helmet": "^6.0.4",
+    "@types/koa-router": "^7.4.4",
     "chalk": "^5.0.0",
+    "dotenv": "^12.0.3",
     "koa": "^2.13.4",
     "koa-body": "^4.2.0",
     "koa-bunyan-logger": "^2.1.0",
-    "koa-helmet": "^6.1.0"
-  }
+    "koa-helmet": "^6.1.0",
+    "koa-router": "^10.1.1",
+    "mongodb": "^4.3.0"
+  },
+  "homepage": "https://github.com/4lch4/Email-To-Text#readme"
 }
