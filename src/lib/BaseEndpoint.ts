@@ -2,6 +2,7 @@ import Router from '@koa/router'
 
 export class BaseEndpoint {
   router: Router
+  var a = 1
 
   constructor() {
     this.router = new Router({
